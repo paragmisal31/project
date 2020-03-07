@@ -1,1 +1,50 @@
-this s my first project
+this s my first git project
+
+#Tracking our first git project
+goto the project folder right click-->git bash here
+
+run following command
+1)git status---->its check the ststus of project
+2)git init ------> it initialize the git process
+3)git add --a------>it add all files to git
+4)git commit -m "inital commit"------> after adding we can give message using this cmd.
+5)git log------->it shows the no of commit in git.
+
+#cloning of git
+git clone "url of remote repository"
+
+#diff command
+1.git diff
+it compare current working directory and staging area.
+
+2.git diff --staged
+it compare previous commit on staging area.
+
+
+#skipping the staging area
+
+git commit -a -m "direct commit"
+
+# to untrack file
+
+git rm --cached file name
+
+#renaming file 
+git mv first.txt first_renamed.txt
+
+
+
+#git log veiwing.
+
+git log -p  --->
+
+git log -p -2
+
+git log --stat
+
+git log --pretty=oneline
+
+git log --preety=short
+
+
+
